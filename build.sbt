@@ -15,12 +15,12 @@ com.jsuereth.sbtsite.SiteKeys.siteMappings <<= com.jsuereth.sbtsite.SiteKeys.sit
 
 resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
 
-scalaVersion := "2.10.2-RC2"
+scalaVersion := "2.10.2"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.2.0-RC1",
   "net.databinder.dispatch" %% "dispatch-core" % "0.10.1",
-  "org.specs2" %% "specs2" % "2.0-RC1" % "test"
+  "org.specs2" %% "specs2" % "2.0-RC2" % "test"
 )
 
 scalacOptions += "-optimise"
